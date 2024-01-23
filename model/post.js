@@ -24,6 +24,9 @@ const PostSchema = mongoose.Schema({
     },
     createdDate: {
         type: Date
+    },
+    fileUp: {
+        type: String
     }
 });
 
